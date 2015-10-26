@@ -113,6 +113,14 @@ class Google extends AbstractService
     // Android Publisher
     const SCOPE_ANDROID_PUBLISHER           = 'https://www.googleapis.com/auth/androidpublisher';
 
+    // Google Fitness
+    const SCOPE_FITNESS_ACTIVITY_READ       = 'https://www.googleapis.com/auth/fitness.activity.read';
+    const SCOPE_FITNESS_ACTIVITY_WRITE      = 'https://www.googleapis.com/auth/fitness.activity.write';
+    const SCOPE_FITNESS_BODY_READ           = 'https://www.googleapis.com/auth/fitness.body.read';
+    const SCOPE_FITNESS_BODY_WRITE          = 'https://www.googleapis.com/auth/fitness.body.write';
+    const SCOPE_FITNESS_LOCATION_READ       = 'https://www.googleapis.com/auth/fitness.location.read';
+    const SCOPE_FITNESS_LOCATION_WRITE      = 'https://www.googleapis.com/auth/fitness.location.write';
+
     protected $accessType = 'online';
 
     public function __construct(
